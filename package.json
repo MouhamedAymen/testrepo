@@ -1,0 +1,23 @@
+{
+  "name": "testrepo",
+  "version": "1.0.0",
+  "description": "test text\r trigger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MouhamedAymen/testrepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MouhamedAymen/testrepo/issues"
+  },
+  "homepage": "https://github.com/MouhamedAymen/testrepo#readme",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
