@@ -13,5 +13,5 @@ steps:
     settings:
       custom_dns: 8.8.8.8
       auto_tag: true
-      # repo: registry.kraken.tn/testrepo
-      registry: registry.kraken.tn
+      repo: registry.kraken.tn/testrepo
+      # registry: registry.kraken.tn
