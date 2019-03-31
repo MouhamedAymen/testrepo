@@ -13,5 +13,5 @@ steps:
     settings:
       insecure: false
       custom_dns: 8.8.8.8
-      repo: registry.kraken.tn:443/testrepo
-      registry: registry.kraken.tn:443
+      repo: registry.kraken.tn/testrepo
+      registry: registry.kraken.tn
