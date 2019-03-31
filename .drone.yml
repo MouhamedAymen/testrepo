@@ -1,3 +1,6 @@
+kind: pipeline
+name: default
+
 steps:
   - name: build
     image: golang:1.12-alpine
