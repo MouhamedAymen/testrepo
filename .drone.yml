@@ -1,0 +1,14 @@
+steps:
+  - name: build
+    image: golang:1.12-alpine
+    commands:
+      - go build
+      - go test
+      - echo -n "5.2.6,5.2.4" > .tags
+  - name: docker
+    image: plugins/docker
+    settings:
+      # username: kevinbacon
+      # password: pa55word
+      repo: registry.kraken.tn:443/testrepo
+      registry: registry.kraken.tn:443
