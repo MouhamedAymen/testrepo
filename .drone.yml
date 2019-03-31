@@ -12,9 +12,11 @@ steps:
     image: ubuntu
     commands:
       - apt-get update
-      - apt-get install curl -y
+      - apt-get install host -y
       - echo hello
-      - curl -s -I https://registry.kraken.tn
+      - host registry.kraken.tn
+      - host https://registry.kraken.tn
+      # - curl -s -I https://registry.kraken.tn
 
   - name: docker
     image: plugins/docker
