@@ -12,5 +12,5 @@ steps:
     image: plugins/docker
     settings:
       custom_dns: 8.8.8.8
-      repo: registry.kraken.tn/testrepo
+      # repo: registry.kraken.tn/testrepo
       registry: registry.kraken.tn
