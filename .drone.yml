@@ -11,7 +11,8 @@ steps:
   - name: docker
     image: plugins/docker
     settings:
-      # username: kevinbacon
-      # password: pa55word
+      target: debug
+      insecure: false
+      custom_dns: 8.8.8.8
       repo: registry.kraken.tn:443/testrepo
       registry: registry.kraken.tn:443
