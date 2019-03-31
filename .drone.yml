@@ -8,16 +8,6 @@ steps:
   #     - npm install
   #     - node index.js
 
-  - name: message
-    image: ubuntu
-    commands:
-      - apt-get update
-      - apt-get install host -y
-      - echo hello
-      - host registry.kraken.tn
-      - host https://registry.kraken.tn
-      # - curl -s -I https://registry.kraken.tn
-
   - name: docker
     image: plugins/docker
     settings:
