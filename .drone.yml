@@ -11,7 +11,7 @@ steps:
   - name: message
     image: ubuntu
     commands:
-      - apt-get update && apt-get install -y && curl -s -I https://registry.kraken.tn
+      - apt-get update && apt-get install curl && curl -s -I https://registry.kraken.tn
 
   - name: docker
     image: plugins/docker
