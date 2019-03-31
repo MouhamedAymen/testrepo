@@ -2,11 +2,11 @@ kind: pipeline
 name: default
 
 steps:
-  - name: build
-    image: node:8-alpine
-    commands:
-      - npm install
-      - node index.js
+  # - name: build
+  #   image: node:8-alpine
+  #   commands:
+  #     - npm install
+  #     - node index.js
 
   - name: docker
     image: plugins/docker

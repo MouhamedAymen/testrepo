@@ -1,2 +1,3 @@
 FROM pierrezemb/gostatic
-COPY randomvalue.txt /srv/http
+COPY index.js /srv/http
+# COPY randomvalue.txt /srv/http
