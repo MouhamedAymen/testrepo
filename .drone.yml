@@ -13,5 +13,5 @@ steps:
     settings:
       # username: kevinbacon
       # password: pa55word
-      repo: registry.kraken.tn:443/testrepo/bar
+      repo: registry.kraken.tn:443/testrepo
       registry: registry.kraken.tn:443
