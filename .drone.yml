@@ -7,10 +7,11 @@ steps:
     commands:
       - npm install
       - node index.js
+
   - name: docker
     image: plugins/docker
     settings:
       # username: kevinbacon
       # password: pa55word
-      repo: registry.kraken.tn:443/testrepo
+      repo: registry.kraken.tn:443/testrepo/bar
       registry: registry.kraken.tn:443
