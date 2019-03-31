@@ -3,11 +3,10 @@ name: default
 
 steps:
   - name: build
-    image: golang:1.12-alpine
+    image: node:8-alpine
     commands:
-      - go build
-      - go test
-      - echo -n "5.2.6,5.2.4" > .tags
+      - npm install
+      - node index.js
   - name: docker
     image: plugins/docker
     settings:
